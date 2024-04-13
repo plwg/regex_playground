@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "Regex Playground"
+version = "0.1.0"
+description = "Playground for Python Re"
+authors = ["Paul Wang"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+# `poetry install`
+# `poetry add`
+# `poetry remove`
+# `poetry env use 3.12`
+python = "^3.12"
+ruff = "^0.3.5"
+pre-commit = "^3.7.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
